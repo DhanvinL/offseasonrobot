@@ -16,6 +16,9 @@ public class Shooter extends SubsystemBase {
         shooterRight.set(rightSpeed);
     }
 
+	public void stopShooter() {
+	}
+
   
     
 }

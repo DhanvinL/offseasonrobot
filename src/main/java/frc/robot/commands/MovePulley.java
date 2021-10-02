@@ -11,6 +11,10 @@ public class MovePulley extends CommandBase {
     public MovePulley(double speed) {
         this.speed = speed;
     }
+    public void stopPulley()
+    {
+        this.speed = (0);
+    }
 
     @Override
     public void initialize() {

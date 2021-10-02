@@ -13,6 +13,11 @@ public class MoveShooter extends CommandBase {
         this.leftSpeed = leftSpeed;
         this.rightSpeed = rightSpeed;
     }
+    public void stopShooter()
+    {
+        this.leftSpeed = (0);
+        this.rightSpeed = (0);
+    }
 
     @Override
     public void initialize() {

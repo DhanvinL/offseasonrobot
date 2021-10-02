@@ -17,4 +17,8 @@ public class Pulley extends SubsystemBase {
         this.pulleySpeedController = pulleySpeedController;
 
     }
+
+
+	public void stopPulley() {
+	}
 }

@@ -15,7 +15,7 @@ public class Elevator extends SubsystemBase {
 
 
 
-    }
+    
 
     
     public Elevator(SpeedController elevatorLeft, SpeedController elevatorRight, DigitalInput limitSwitchA, DigitalInput limitSwitchB, Encoder encoderOne, Encoder encoderTwo) {
@@ -24,7 +24,7 @@ public class Elevator extends SubsystemBase {
         this.limitSwitchA = limitSwitchA;
         this.limitSwitchB = limitSwitchB;
         this.encoderOne = encoderOne;
-        this.encoderTwo = encoderTwo;
+        this.encoderTwo = encoderTwo;}
 
     public void stopElevator() {
         elevatorLeft.stopMotor();
